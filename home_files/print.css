@@ -1,0 +1,28 @@
+
+/* Hide these */
+
+#search,
+#left_column,
+.horses,
+.docs {
+	display: none;
+}
+
+body,
+#header,
+.bodypanels,
+.page_title {
+	background: none;
+}
+
+#header,
+#webpage,
+.page_title,
+.bodypanels_normal {
+	width: 100%;
+}
+
+.bodypanels,
+.page_title {
+	padding: 0;
+}

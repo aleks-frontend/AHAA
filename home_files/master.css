@@ -1,0 +1,472 @@
+/* @override 
+	http://www.ahaa.org.au/css/master.css?v5
+*/
+
+body {
+	margin: 0px;
+	background-color: #F0EEE5;
+	background-image: url(/images/main-bg.gif);
+	background-position: center top;
+	background-repeat: repeat-x;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.4em;
+	color: #361312;
+	font-weight: normal;
+}
+
+p {
+	margin: 0 0 1.5em;
+	line-height: 1.6em;
+}
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	color: #B5121B;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+h1 {
+	font-weight: bold;
+	color: #B5121B;
+	margin: 5px 0px 0px 0px;
+	line-height: 1.4em;
+}
+
+#home h1 {
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-top: 0;
+	padding: 28px 75px 18px 75px;
+	font-size: 130%;
+	border-top: 1px dotted #ccc;
+	background: url(/images/h2_separator.gif) no-repeat 0 10px;
+	clear: both;
+}
+
+h2:first-child {
+	border: none;
+}
+
+h3 {
+	color: #da2237;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+.clear {
+	width: 100%;
+	height: 1px;
+	clear: both;
+}
+
+.docs {
+	margin: 0 0 30px 0;
+	padding-left: 0;
+}
+
+.galleries {
+	float: none;
+	display: inline-block;
+}
+
+
+#left_aligned .ewimg_top {
+	text-align: center;
+	display: block;
+}
+.ewimg_top, .ewimg_bottom {
+	clear: both;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.ewimg_top .image_align, .ewimg_bottom .image_align {
+	float: none;
+}
+
+#header {
+	width: 950px;
+	height: 141px;
+	margin: 0px auto;
+	clear: both;
+	background: url(/images/header-bggrad.gif) repeat-x;
+	color: #fff;
+}
+
+#header .logo {
+	width: 442px;
+	height: 109px;
+	display: block;
+	float: left;
+	margin: 29px 0 0 9px;
+}
+
+#header .horses {
+	width: 200px;
+	padding-left: 80px;
+	height: 138px;
+	padding-top: 3px;
+	float: right;
+	background: url(/images/header-horses.jpg) no-repeat;
+}
+
+#header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#webpage {
+	width: 950px;
+	padding-top: 15px;
+	margin: 0px auto;
+}
+
+#left_column {
+	width: 200px;
+	padding: 10px 5px;
+	float: left;
+}
+
+#center_column {
+	padding: 10px;
+	float: left;
+}
+
+#home #center_column {
+	width: 480px;
+}
+
+#center_column .welcome_message {
+	width: 100%;
+	text-align: center;
+	color: #da2237;
+}
+
+#right_column {
+	float: left;
+	width: 240px;
+	padding-top: 60px;
+	text-align: right;
+}
+
+#right_column .galleries {
+	float: right;
+	margin-right: 0;
+}
+
+#right_column .box {
+	text-align: center;
+	width: 240px;
+	padding-top: 20px;
+}
+
+#right_column .box p {
+	padding-top: 15px;
+}
+
+#footer {
+	width: 100%;
+	height: 50px;
+	padding-top: 20px;
+	margin-bottom: 50px;
+	clear: both;
+	text-align: center;
+}
+
+.topnav-lnk:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 25px;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.topnav-lnk:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 25px;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.topnav-lnk:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+ul.menu > li > a {
+	background-image: url(/images/nav-icon.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	margin-top: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #361312;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	width: 175px;
+	height: 21px;
+	padding-top: 4px;
+	font-size: 12px;
+}
+
+ul.menu > li > a:hover {
+	text-decoration: underline;
+}
+
+.nav-lnk:link {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 25px;
+	color: #361312;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.nav-lnk:visited {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 25px;
+	color: #361312;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.nav-lnk:hover {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 25px;
+	color: #B5121B;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.bodypanels {
+	background-color: #F5F4ED;
+	border: 1px solid #D1CBB4;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	width: 460px;
+	min-height: 300px;
+	text-align: center;
+}
+#left_aligned .bodypanels {
+	text-align: left;
+}
+
+.bodypanels_normal {
+	width: 690px;
+}
+
+.bodypanels table td {
+	padding: 1em 0.3em;
+	text-align: center;
+	vertical-align: top;
+	border: 1px #aaa solid;
+}
+
+.bodypanels table td em {
+	color: #666;
+}
+
+.page_title {
+	width: 690px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid #D1CBB4;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #da2237;
+}
+
+a.text-image {
+	text-decoration: none;
+}
+
+/* Side Menu */
+
+ul.menu {
+	z-index: 500;
+	margin: 0px;
+	width: 170px;
+	list-style-type: none;
+	position: relative;
+	padding-left: 8px;
+}
+
+.menu img.facebook {
+	margin: 20px 0 10px 10px;
+}
+
+.menu li {
+	float: left;
+}
+
+.menu a {
+	display: block;
+	color: #000;
+	text-decoration: none;
+	white-space: normal;
+	width: 170px;
+	white-space: normal;
+}
+
+.menu a:visited {
+	display: block;
+	color: #000;
+	line-height: 25px;
+	height: 25px;
+	text-decoration: none;
+}
+
+.menu li:hover {
+	position: relative;
+	border-left: 1px solid #d4d8bd;
+}
+
+.menu a:active {
+	background: #aa7;
+	color: #efa;
+}
+
+.menu a:focus {
+	background: #aa7;
+	color: #efa;
+}
+
+.menu li:hover > a {
+	background: #aa7;
+	color: #efa;
+}
+
+/* Submenus */
+
+.menu li ul {
+	position: absolute;
+	top: -30px;
+	left: 200px;
+	visibility: hidden;
+	padding: 30px 0;
+    list-style-position: outside;
+}
+
+.menu li:hover > ul {
+	visibility: visible;
+}
+
+.menu li ul li {
+	background: #d4d8bd;
+}
+
+.menu li ul li a {
+	text-indent: 5px;
+	line-height: 25px;
+	height: 25px;
+	color: #361312;
+	width: 200px;
+	overflow: hidden;
+}
+
+/* Bottom Menu */
+
+ul.menu.bottom {
+	width: auto;
+	padding-left: 0;
+	overflow: hidden;
+}
+
+ul.menu.bottom li {
+	display: inline;
+	float: none;
+	margin: 0 10px 0 0;
+	padding: 0 10px 0 0;
+	border-right: 1px solid #888;
+}
+
+ul.menu.bottom li a {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+ul.menu.bottom li a:hover {
+	color: #555;
+}
+
+/* Image Captions */
+
+.galleries em,
+.image_align .caption {
+	height: auto;
+	font-size: 11px;
+	color: #777;
+	text-align: center;
+	padding: 0;
+}
+
+/* Stud Book */
+
+#stud_book #center_column,
+#stud_book .page_title,
+#stud_book .bodypanels {
+	width: 920px;
+}
+
+#stud_book iframe {
+	margin: -10px 0 20px -10px;
+	width: 940px;
+	height: 650px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+
+/* Forms */
+.bodypanels form {
+	text-align: left;
+}
+
+fieldset {
+	margin: 0;
+}
+
+form.form .row {
+	margin-bottom: 10px;
+}
+
+form.form  span {
+	display: block;
+	float: left;
+	width: 200px;
+}
+
+form.form  label input[type=text] {
+	width: 400px;
+	padding: 0.4em;
+}
+
+form.form label select {
+	width: 411px;
+	padding: 0.4em;
+}
+
+form.form  table input[type=text] {
+	width: 80px;
+}
