@@ -11,6 +11,7 @@ This association holds the Stud Books in Australasia for the Purebred Span And
     <link rel="shortcut icon" href="http://www.ahaa.org.au/favicon.ico">
     <link type="text/css" rel="stylesheet" media="all" href="./home_files/saved_resource">
     <link type="text/css" rel="stylesheet" media="screen" href="./home_files/master.css">
+    <link type="text/css" rel="stylesheet" media="screen" href="responsive.css">
     <link type="text/css" rel="stylesheet" media="print" href="./home_files/print.css">
     <script type="text/javascript" async="" src="./home_files/ga.js.download"></script><script type="text/javascript" src="./home_files/jsapi"></script>
     <script type="text/javascript">
@@ -18,8 +19,19 @@ This association holds the Stud Books in Australasia for the Purebred Span And
     </script><script src="./home_files/jquery.min.js.download" type="text/javascript"></script>
 	<script type="text/javascript" src="./home_files/jquery-ui-1.9.2.custom.min.js.download"></script>
     <script type="text/javascript" src="./home_files/saved_resource(1)"></script>
+    
+
+    <script>
+      $(document).ready(function() {
+        $(".menu_left-side-button").on('click', function() {
+          $(this).next(".nesto").show();
+        });
+      });
+    </script>
+
   </head>
   <body id="home" class="p1">
+    
     <div id="header">
       <a class="logo" href="http://www.ahaa.org.au/"><img alt="Logo" src="./home_files/ahaa-logo.gif" title="Logo"></a>
       <div class="horses">
@@ -28,8 +40,10 @@ This association holds the Stud Books in Australasia for the Purebred Span And
     </div><!-- end #header -->
 
     <div id="webpage">
-      <div id="left_column">
-        <div class="menu">
+      <span class="menu_left-side-button"></span>
+      <div id="left_column" class="nesto">
+        
+        <div class="menu nesto">
     <ul class="menu">
           <li class="on first"><a href="http://www.ahaa.org.au/">Home</a></li>
           <li><a href="http://www.ahaa.org.au/news/p/16">News</a></li>

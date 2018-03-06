@@ -1,0 +1,169 @@
+body {
+  background: url('http://www.ahaa.org.au/images/main-bg.gif'); 
+  background-repeat: repeat-x;
+  background-color: #F0EEE5;
+}
+
+a {
+  word-wrap: break-word;
+}
+
+h2 {
+  background: url('http://www.ahaa.org.au/images/h2_separator.gif') no-repeat 0 10px; 
+}
+
+#header {
+  max-width: 950px;
+  width: 100%;
+  background-image: url('http://www.ahaa.org.au/images/header-bggrad.gif')
+}
+
+#header .logo {
+  max-width: 442px;
+  width: 100%;
+}
+
+#header .horses {
+  max-width: 200px;
+  width: 100%;
+  background: url('http://www.ahaa.org.au/images/header-horses.jpg');
+}
+
+#webpage {
+  max-width: 9500px;
+
+}
+
+#left_column {
+  max-width: 200px;
+  width: 100%;
+}
+
+ul.menu {
+  max-width: 170px;
+  width: 100%;
+}
+
+ul.menu > li > a {
+  background: url('http://www.ahaa.org.au/images/nav-icon.gif') no-repeat;
+}
+
+#home #center_column {
+  max-width: 480px;
+  width: 100%;
+}
+
+#right_column {
+  max-width: 240px;
+  width: 100%;
+}
+
+.page_title,
+.bodypanels_normal {
+  max-width: 100%;
+}
+
+.bodypanels_normal ul {
+  padding-left: 0;
+}
+
+.bodypanels_normal table {
+  max-width: 100%;
+  width: 100% !important;
+}  
+
+.image_align img,
+.galleries img {
+  max-width: 100%;
+  height: auto;
+} 
+
+
+
+
+@media screen and (max-width: 1023px) {
+  
+  .menu_left-side-button {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    cursor: pointer;
+    display: none;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 80px 0px 18px 0px;
+    background: url('http://www.ahaa.org.au/images/h2_separator.gif') no-repeat top center;
+  }
+
+  #webpage {
+    width: 100%;
+    padding: 0 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  #center_column {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #left_column {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+
+
+  }
+
+  #home #center_column {
+    max-width: 100%;
+  }
+
+  .page_title,
+  .bodypanels_normal {
+    width: 100%;
+}
+
+  .nesto {
+    display: none;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  
+  #header .horses {
+    position: absolute;
+    right: 20px;
+    width: auto;
+    background: none;
+  }
+  .logo img {
+    max-width: 100%;
+  }
+
+  .bodypanels table td {
+    display: block;
+    width: 100% !important;
+    margin-bottom: 15px;
+  }
+
+  #header .logo {
+    margin-left: 0;
+  }
+
+
+
+}
